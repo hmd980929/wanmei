@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Keywords" content="完美世界通行证,完美世界账号,注册完美通行证,登录完美世界账号,完美世界会员中心,完美账号挂失,修改密码,完美世界账号安全,完美世界密保工具,密保卡,手机令牌,完美神盾,完美充值管理,完美充值记录,完美点券,绑定手机,绑定邮箱"/>
+        <meta name="Description" content="完美世界是一家网络游戏研发、运营、销售和服务公司，以自主原创为根本、以精品游戏研发为宗旨、以中国文化推广为目标，致力于为全球用户提供优质的互联网娱乐服务。完美娱乐，世界同享！"/>
+        <title>登录账号 - 完美世界通行证</title>
+        <link rel="stylesheet" href="css/login.css">
+        <link type="image/x-icon" href="https://safestatic.games.wanmei.com/common/ico/favicon.ico" rel="shortcut icon">
+        <script src = 'js/require.js' async = 'true' defer data-main = 'js/main'></script>
+    </head>
+    <body>
+        <div class="topbar cl">
+            <h1 class="left logo">
+                <a target="_blank" href="index.html">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </h1>
+        </div>
+        <div class="as">
+            <div class="as_wrap ">
+                <a class="logo" href=""></a>
+                <div id="tabCh" class="lan_tabpage tabch">
+                    <h2 class="tit">登录完美通行证</h2>
+                    <div class="func_tabpage">
+                        <form action="" autocomplete="off">
+                            <div class="ibox mb17">
+                                <input name="username" id="username" required="required" class="username" type="text" placeholder="账号">
+                            </div>
+                            <div class="ibox mb17" style="margin-bottom:38px">
+                                <input name="password" id="password" required="required" class="password" type="text" placeholder="密码">
+                                <p id="password_p"></p>
+                            </div>
+                            <a class="rbtn_s1" id="login_btn" href="#" >登录</a>
+                            <a class="rbtn_s1" href="register.html" target="_blank">免费注册通行证</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
