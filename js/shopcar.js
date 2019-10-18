@@ -185,7 +185,7 @@ define(["jquery","jquery-cookie"],function($){
             $("#goods").empty(); //清空所有子节点
             $.ajax({
                 type: "get",
-                url: "../data/shopcar.json",
+                url: "data/shopcar.json",
                 success: function(arr){
                     //取出cookie中的数据
                     var cookieStr = $.cookie("goods");
