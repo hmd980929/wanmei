@@ -99,6 +99,9 @@ define(["jquery"],function($){
                         oPassword_p.css("color","red")
                     }else{
                         oPassword_p.css("color","green")
+                        setInterval(function(){
+                            location.href = "login.html";
+                        }, 2000);
                     }
                     aTest.css("display","none");
                     oTestCode_span.css("display","none");
