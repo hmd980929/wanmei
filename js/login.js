@@ -20,6 +20,11 @@ define(["jquery"],function($){
                     }else{
                         oPassword_p.css("color","green");
                         open("index.html");
+                        $.cookie("user",null);
+                            var arruser = [{user:oUsername.val()}];
+                            $.cookie("user",JSON.stringify(arruser),{
+                                expires:7
+                        });
                     }
                     oPassword_p.html(obj.message);
                     oPassword_p.css("display","block");

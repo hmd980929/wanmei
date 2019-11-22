@@ -11,6 +11,13 @@ define(["jquery"],function($){
                 height:0
             },500)
         })
+
+        var cookieStr = $.cookie("user");
+        if(cookieStr){
+            var cookieArr = JSON.parse(cookieStr);
+            var username = cookieArr[0].user;
+            $("#yonghu").html(`您好,${username}`);
+        }
     }
     function select_menu(){
         // 实现下拉菜单
